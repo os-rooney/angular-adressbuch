@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Adressbuch} from "../adressbuch";
+import {addressBook} from "../adressbuch";
 
 @Component({
   selector: 'app-adressbuch',
@@ -9,7 +9,7 @@ import {Adressbuch} from "../adressbuch";
 export class AdressbuchComponent implements OnInit {
 
   @Input()
-  adressbuch?: Adressbuch;
+  addressBook?: addressBook;
 
   constructor() { }
 

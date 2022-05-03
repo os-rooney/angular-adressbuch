@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-adressbuch-form',
@@ -11,5 +11,4 @@ export class AdressbuchFormComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

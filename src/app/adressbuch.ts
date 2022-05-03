@@ -1,6 +1,5 @@
-export interface Adressbuch{
+export interface addressBook{
   name: string,
-  telefon: string,
-  mobil: string,
-  adresse: string
+  phone: string,
+  address: string
 }

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Adressbuch} from "./adressbuch";
+import {addressBook} from "./adressbuch";
 
 @Component({
   selector: 'app-root',
@@ -8,11 +8,12 @@ import {Adressbuch} from "./adressbuch";
 })
 export class AppComponent implements OnInit{
 
-  title = 'Adressbuch';
+  title = 'Address Book';
 
-  adressbuch?: Adressbuch[];
+  addressBook?: addressBook[];
 
   public ngOnInit() {
   }
+
 
 }
